@@ -1,7 +1,6 @@
 require "thor"
 
 require_relative "cli_lib/commands/new"
-require_relative "cli_lib/commands/generate"
 require_relative "cli_lib/commands/start"
 
 module Qamper
@@ -12,10 +11,6 @@ module Qamper
     LONGDESC
     method_option aliases: "n"
     register(CliLib::Commands::New, "new", "new", "Initializes project")
-
-    desc "generate", "Generate templates"
-    method_option aliases: "g"
-    subcommand "generate", CliLib::Commands::Generate
 
     desc "start", "Start Qamper"
     method_option aliases: "s"

@@ -5,10 +5,10 @@ Qamper::Configuration.configure do |config|
   config.amqp = "amqp://guest:guest@localhost:5672"
 
   # name of exchange
-  config.exchange = "sneakers"
+  config.exchange = "qamper"
 
   # number of workers per key
-  config.workers   = 1
+  config.workers = 1
 
   # logger level
   config.logger_level = Logger::INFO
