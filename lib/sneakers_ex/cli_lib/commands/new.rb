@@ -3,7 +3,7 @@ require "thor"
 require_relative "../../utils"
 require_relative "../../version"
 
-module Qamper
+module SneakersEx
   module CliLib
     module Commands
       class New < Thor::Group
@@ -22,7 +22,7 @@ module Qamper
 
           def camelized_name; Utils.camelize(name); end
 
-          def gem_version; "~> #{Qamper::VERSION[/^\d\.\d/]}"; end
+          def gem_version; "~> #{SneakersEx::VERSION[/^\d\.\d/]}"; end
         end
 
         def perform

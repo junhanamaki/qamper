@@ -3,7 +3,7 @@ require "thor"
 require_relative "cli_lib/commands/new"
 require_relative "cli_lib/commands/start"
 
-module Qamper
+module SneakersEx
   class Cli < Thor
 
     long_desc <<-LONGDESC
@@ -12,7 +12,7 @@ module Qamper
     method_option aliases: "n"
     register(CliLib::Commands::New, "new", "new", "Initializes project")
 
-    desc "start", "Start Qamper"
+    desc "start", "Starts Qamper"
     method_option aliases: "s"
     register(CliLib::Commands::Start, "start", "start", "Starts Qamper")
 

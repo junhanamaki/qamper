@@ -1,6 +1,6 @@
 require "thor"
 
-module Qamper
+module SneakersEx
   module CliLib
     module Commands
       class Start < Thor::Group
@@ -8,6 +8,7 @@ module Qamper
         desc "Starts Qamper"
 
         def perform
+          Sneakers::Runner.new(amqp_endpoints).run
         end
 
       end

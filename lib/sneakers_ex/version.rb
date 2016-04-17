@@ -1,3 +1,3 @@
-module Qamper
+module SneakersEx
   VERSION = "0.1.0"
 end

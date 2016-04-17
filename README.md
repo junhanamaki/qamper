@@ -1,13 +1,11 @@
-# Qamper
-
-RabbitMQ
+# SneakersEx
 
 ## Installation
 
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'qamper'
+gem 'sneakers_ex'
 ```
 
 And then execute:
@@ -16,7 +14,7 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install qamper
+    $ gem install sneakers_ex
 
 ## Usage
 
@@ -28,5 +26,5 @@ Or install it yourself as:
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/junhanamaki/qamper.
+Bug reports and pull requests are welcome on GitHub at https://github.com/junhanamaki/sneakers_ex.
 

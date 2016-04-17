@@ -2,6 +2,6 @@
 
 $LOAD_PATH.unshift(File.expand_path('../lib', __dir__))
 
-require 'qamper/cli'
+require 'sneakers_ex/cli'
 
-Qamper::Cli.start
+SneakersEx::Cli.start
